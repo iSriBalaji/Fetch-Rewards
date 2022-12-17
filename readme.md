@@ -3,9 +3,9 @@
             - fetches the data from the SQS <br>
             - flatten it <br>
             - mask the PII data <br>
-            - insert the data into the Postgres           <br>  
-            - also find the number of messages in the SQS queue automatically    <br>
-            - check for duplicate records  <br>
+            - insert the data into the Postgres<br>  
+            - also find the number of messages in the SQS queue automatically<br>
+            - check for duplicate records<br>
             - check for data integrity and eliminates the value <br>
 2. db_connection.py - connects to the Postgres DB running in the container <br>
             - connect to the DB <br>
@@ -20,7 +20,7 @@
             - helps in writing transformation scripts <br>
 
 ## Steps to run the code
-Just use the ./run.sh script to start the process. It will automatically call the main.py and detect how many messages are in the queue and complete the operation from start to end <br>
+Just use the <code>./run.sh</code> script to start the process. It will automatically call the main.py and detect how many messages are in the queue and complete the operation from start to end <br>
 
 ## Please make sure the following before running the program
 - Run the python code with version 3(python3) in the script or in the terminal <br>
