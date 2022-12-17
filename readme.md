@@ -71,6 +71,8 @@ I have written a decrypt function in the main.py which can be used to recover th
 
 Note: During installation of docker, I encountered a problem with my os(ubuntu) and after some time I borrowed my friend's PC to complete the assessment. the path and username priya you see in the code and the video is because of this :) <br>
 
+Also, for the app_version column which is set to be integer does not take the int value as it is in the form of 12.2.2 which cannot be converted directly to integer. So, I just took the main version say 12 from 12.2.2 to store it in the database. Looking forward to discuss about this, if it can be solved in other ways.
+
 ## References
 https://www.geeksforgeeks.org/python-os-urandom-method/ <br>
 https://www.youtube.com/watch?v=ZjebvGhxONA <br>
