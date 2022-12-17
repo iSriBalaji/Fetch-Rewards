@@ -66,7 +66,7 @@ We can experiment with other approaches and measure the performance of the conta
 4. <strong>How can PII be recovered later on?</strong> <br>
 I have written a decrypt function in the main.py which can be used to recover the PII data again. We just have to pass the encrypted data to the function to recover the actual data. Please try it too! <br>
 
-## Here is the Video recording if the code did not run unfortunate situations <br>
+## Here is the Video recording if the code did not run in unfortunate situations <br>
 [FetchRewards_SriBalaji_Muruganandam - YouTube](https://youtu.be/DHnQPHiNX1o)
 
 Note: During installation of docker, I encountered a problem with my os(ubuntu) and after some time I borrowed my friend's PC to complete the assessment. the path and username priya you see in the code and the video is because of this :) <br>
