@@ -3,7 +3,8 @@ import psycopg2
 from configparser import ConfigParser
 
 # Configuration Path
-db_path = "/Users/priyavarman/Documents/SriBalaji-Assessment/data-engineering-take-home/database.ini"
+#db_path = "/Users/priyavarman/Documents/SriBalaji-Assessment/data-engineering-take-home/database.ini"
+db_path = "database.ini"   #please set the database.ini path here!
 
 class postGres:
 
